@@ -44,5 +44,5 @@ if __name__ == "__main__":
 		vA = viewAngle(D, t)
 		iD = imageDiameter(i, vA)
 		fS = fStop(i, D)
-		print D, iD, fS
+		print i, D, iD, fS
 		
