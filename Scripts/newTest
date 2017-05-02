@@ -3,13 +3,13 @@ echo "enter name of test"
 
 read testName
 
-mkdir Mk1/Tests/$testName
+mkdir Tests/$testName
 
-echo ------------- Log for $testName ------------- >> Mk1/Tests/$testName/log.txt
+echo ------------- Log for $testName ------------- >> Tests/$testName/log.txt
 
-echo Created on `date` >> Mk1/Tests/$testName/log.txt
+echo Created on `date` >> Tests/$testName/log.txt
 
-mkdir Mk1/Tests/$testName/components
+mkdir Tests/$testName/components
 
-touch Mk1/Tests/$testName/main.skp
+touch Tests/$testName/main.skp
 
