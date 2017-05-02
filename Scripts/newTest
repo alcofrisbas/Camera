@@ -1,0 +1,14 @@
+echo "enter name of test"
+
+read testName
+
+mkdir Mk1/Tests/$testName
+
+echo ------------- Log for $testName ------------- >> Mk1/Tests/$testName/log.txt
+
+echo Created on `date` >> Mk1/Tests/$testName/log.txt
+
+mkdir Mk1/Tests/$testName/components
+
+touch Mk1/Tests/$testName/main.skp
+

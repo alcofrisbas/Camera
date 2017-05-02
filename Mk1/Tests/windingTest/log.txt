@@ -1,2 +1,4 @@
+------------- Log for windingTest -------------
+
 made components and exported to obj
 next: process with cura
