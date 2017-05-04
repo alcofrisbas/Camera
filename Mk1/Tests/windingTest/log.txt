@@ -2,3 +2,8 @@
 
 made components and exported to obj
 next: process with cura
+Done
+
+printed: results:
+teeth... Fine!!!
+issues: tolerance can be lower. try 0.1 mm this time, not 0.25mm
